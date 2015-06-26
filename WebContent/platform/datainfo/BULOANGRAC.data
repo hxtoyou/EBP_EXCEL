@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <tablename>BULOANGRAC</tablename>
+  <tabledesc>融资发放展期管理</tabledesc>
+  <type>B</type>
+  <bizno>loanBizNo;graceIndex</bizno>
+  <isneedtmp>Y</isneedtmp>
+  <isneedinfo>Y</isneedinfo>
+  <isneedarv>Y</isneedarv>
+  <isLoop>0</isLoop>
+  <indexinfo JSONFLG="2"/>
+  <fieldinfo JSONFLG="2">
+    <fieldinfo>
+      <id>txnNo</id>
+      <desc>流水号</desc>
+      <cnDesc>流水号</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>TransationNo</enDesc>
+      <inputFlg>1</inputFlg>
+      <length>16</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>loanBizNo</id>
+      <desc>融资编号</desc>
+      <cnDesc>融资编号</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>loan bizNo</enDesc>
+      <inputFlg>1</inputFlg>
+      <length>16</length>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>graceIndex</id>
+      <desc>展期序号</desc>
+      <cnDesc>展期序号</cnDesc>
+      <fieldType>INT</fieldType>
+      <enDesc>Grace Index</enDesc>
+      <inputFlg>1</inputFlg>
+      <length></length>
+      <dftVal></dftVal>
+      <type>INTEGER</type>
+      <fldTyp>INT</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiInttMode</id>
+      <desc>展期结息方式</desc>
+      <cnDesc>展期结息方式</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>Grace Interest Collect</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>3</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiAdjtIntrCur</id>
+      <desc>展期预收利息币种</desc>
+      <cnDesc>展期预收利息币种</cnDesc>
+      <fieldType>CCY</fieldType>
+      <enDesc>Grace Interest Cur</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>3</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>CCY</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiAdjtIntrAmt</id>
+      <desc>展期预收利息金额</desc>
+      <cnDesc>展期预收利息金额</cnDesc>
+      <fieldType>AMT</fieldType>
+      <enDesc>Grace Interest Amount</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>18,2</length>
+      <dftVal></dftVal>
+      <type>NUMERIC</type>
+      <fldTyp>AMT</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiMatureDate</id>
+      <desc>展期到期日期</desc>
+      <cnDesc>展期到期日期</cnDesc>
+      <fieldType>DATE</fieldType>
+      <enDesc>Grace Interest End Date</enDesc>
+      <inputFlg>0</inputFlg>
+      <length></length>
+      <dftVal></dftVal>
+      <type>DATE</type>
+      <fldTyp>DATE</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiIntsmthd</id>
+      <desc>展期利息计算方法</desc>
+      <cnDesc>展期利息计算方法</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>Grace Interest Method</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>15</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiRateType</id>
+      <desc>展期利息计算方式</desc>
+      <cnDesc>展期利息计算方式</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>Grace Rate Type</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>3</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiFloatRateType</id>
+      <desc>展期利率类型</desc>
+      <cnDesc>展期利率类型</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>Grace Interest Rate Code</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>20</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiFloatFlag</id>
+      <desc>展期利率加减码</desc>
+      <cnDesc>展期利率加减码</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>Grace Spread Flag</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>1</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiFloatPoint</id>
+      <desc>展期利率加减点</desc>
+      <cnDesc>展期利率加减点</cnDesc>
+      <fieldType>RATE</fieldType>
+      <enDesc>Grace Interest Spread</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>18,6</length>
+      <dftVal></dftVal>
+      <type>NUMERIC</type>
+      <fldTyp>RATE</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiBenkRate</id>
+      <desc>展期基准利率</desc>
+      <cnDesc>展期基准利率</cnDesc>
+      <fieldType>RATE</fieldType>
+      <enDesc>Grace Interest Base Rate</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>18,6</length>
+      <dftVal></dftVal>
+      <type>NUMERIC</type>
+      <fldTyp>RATE</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiRate</id>
+      <desc>展期利率</desc>
+      <cnDesc>展期利率</cnDesc>
+      <fieldType>RATE</fieldType>
+      <enDesc>Grace Fixed Interest Rate</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>18,6</length>
+      <dftVal></dftVal>
+      <type>NUMERIC</type>
+      <fldTyp>RATE</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>contiAmortize</id>
+      <desc>展期摊销标识</desc>
+      <cnDesc>展期摊销标识</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>Grace Amortize</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>1</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>provPaidFlag</id>
+      <desc>计提还清标记</desc>
+      <cnDesc>计提还清标记</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc>Provision of paid Flag</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>1</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>loanDays</id>
+      <desc>贷款天数</desc>
+      <cnDesc>贷款天数</cnDesc>
+      <fieldType>INT</fieldType>
+      <enDesc>loan Days</enDesc>
+      <inputFlg>0</inputFlg>
+      <length>15</length>
+      <dftVal></dftVal>
+      <type>INTEGER</type>
+      <fldTyp>INT</fldTyp>
+    </fieldinfo>
+  </fieldinfo>
+</root>

@@ -1,0 +1,5 @@
+com.eap.ide.config.complianceLevel=2.2
+com.eap.ide.config.jspEncode=UTF-8
+com.eap.ide.config.tlds=c.tld;eap.tld;
+com.eap.ide.config.xmlEncode=UTF-8
+eclipse.preferences.version=1

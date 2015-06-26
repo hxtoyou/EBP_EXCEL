@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BUOPCOM.XML>
+	<tablename>butxnoth</tablename>
+	<bizno/>
+	<index/>
+	<isneedtmp>y</isneedtmp>
+	<isneedinfo>n</isneedinfo>
+	<isneedarv>y</isneedarv>
+	<fieldinfo>
+		<fieldinfo>
+			<id>txnNo</id>
+			<name>交易流水号</name>
+			<desc>txnNo</desc>
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>16</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>zbbsFlag</id>
+			<name>资本报送标志</name>
+			<desc>zbbsFlag</desc>
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>1</length>
+		</fieldinfo>
+	</fieldinfo>	
+</BUOPCOM.XML>

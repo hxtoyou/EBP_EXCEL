@@ -1,0 +1,52 @@
+
+div.printToolAreaWrap{
+	padding-left  : 2px;
+	padding-right : 2px;
+	padding-bottom: 4px;
+	overflow:hidden;
+}
+
+div.printToolsIconArea{
+	float:left;
+	background-color:#f1f1f1;
+	width:76px;
+	height:76px;
+	cursor:pointer;
+	margin-left : 2px;	
+	margin-right:2px;
+	margin-top:4px;
+	overflow:hidden;
+}
+
+.commQueryCondWrap .paramQueryAdd{
+	padding : 4px 4px 4px  8px;
+	background : #dee9f3 url(images/add.png) center center no-repeat;
+	height: 27px;
+	width : 38px;
+	overflow:hidden;
+	float:left;
+	border-right: 1px solid #FFFFFF;
+}
+
+div.printToolsIconArea:hover{
+	background-color:#c8c8c8;
+	color:#FFF;
+}
+ 
+div.printToolsIconArea div.printToolIcon{
+	height: 35px;
+	width:35px;
+	margin-top:4px;
+	margin-bottom:4px;
+	margin-left:16px;	
+}
+
+div.printToolsIconArea div.printToolText{
+	TEXT-ALIGN:center;
+	color:#232323;
+	font-family:΢���ź�;
+	font-size:12px;
+	height:24px;
+	line-height:12px;
+	overflow:hidden;
+}

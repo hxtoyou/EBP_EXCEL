@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<project name="com.hxb.ebills" default="copy" basedir=".">
+	<tstamp />
+
+	<target name="clean">
+		<delete dir="d:\gjyw" includes="**/ebills.properties,**/log4j.xml" />
+	</target>
+	
+	<!-- ANT 注释 -->
+	<target name="copy" depends="clean">
+		<copy todir="d:\gjyw" flatten="true">
+			<fileset dir="gjyw">
+			</fileset>
+		</copy>
+	</target>
+</project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="20150327">
+  <ReviewIssue id="I7QZMQGK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:46:37:940 CST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:48:26:923 CST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>xiehuanqiu</ReviewerId>
+    <AssignedTo>humingming</AssignedTo>
+    <File line="33">src/com/ebills/product/action/bussiness/FinacePayInfoAction.java</File>
+    <Type>代码注释</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>解决注释问题</Summary>
+    <Description>解决注释问题</Description>
+    <Annotation>分给你</Annotation>
+    <Revision>OK</Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.closed</Status>
+  </ReviewIssue>
+  <ReviewIssue id="I7QZQEHE">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:49:29:042 CST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:54:26:330 CST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>xiehuanqiu</ReviewerId>
+    <AssignedTo>humingming</AssignedTo>
+    <File line="34">src/com/ebills/product/action/bussiness/FinacePayInfoAction.java</File>
+    <Type>代码注释</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>测试</Summary>
+    <Description>测试</Description>
+    <Annotation>123</Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.resolved</Status>
+  </ReviewIssue>
+  <ReviewIssue id="I7QZRRFA">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:50:32:470 CST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:54:19:026 CST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>xiehuanqiu</ReviewerId>
+    <AssignedTo>humingming</AssignedTo>
+    <File line="37">src/com/ebills/product/action/bussiness/FinacePayInfoAction.java</File>
+    <Type>代码注释</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>ceshi </Summary>
+    <Description>fsdffsdf</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.closed</Status>
+  </ReviewIssue>
+</Review>

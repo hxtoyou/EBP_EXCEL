@@ -1,0 +1,56 @@
+package com.ebills.product.dg.intf;
+
+public interface IErrorCode {
+  public final static String INTF_SUCCESS="00000000";
+  public final static String GJYW_0="00000000";
+  public final static String GJYW__MSG_0="数据已经成功接收";
+  public final static String GJYW_1="GJYW00000001";
+  public final static String GJYW_MSG_1="prcscd在国际业务系统不存在!";
+  public final static String GJYW_2="GJYW00000002";
+  public final static String GJYW_MSG_2="appno客户号在国际业务系统不存在!";
+  public final static String GJYW_3="GJYW00000003";
+  public final static String GJYW_MSG_3="交易流水号在国结算系统不存在";
+  public final static String GJYW_4="GJYW00000004";
+  public final static String GJYW_5="GJYW00000005";
+  public final static String GJYW_6="GJYW00000006";
+  public final static String GJYW_MSG_6="原交易流水号不存在或者已经被使用了不能撤销";
+  public final static String GJYW_7="GJYW00000007";
+  public final static String GJYW_MSG_7="信贷借据号已经存在";
+  public final static String GJYW_CRIN01_4="GJYWCRIN0104";
+  public final static String GJYW_CRIN01__MSG_4="国结系统异常GJYWCRIN0104";
+  public final static String GJYW_CRIN01_3="GJYWCRIN0103";
+  public final static String GJYW_CRIN01__MSG_3="国结系统异常GJYWCRIN0103";
+  public final static String GJYW_CRIN02_4="GJYWCRIN0204";
+  public final static String GJYW_CRIN02__MSG_4="国结系统异常GJYWCRIN0204";
+  public final static String GJYW_CRIN02_3="GJYWCRIN0203";
+  public final static String GJYW_CRIN02__MSG_3="国结系统异常GJYWCRIN0203";
+  public final static String GJYW_CRIN03_4="GJYWCRIN0304";
+  public final static String GJYW_CRIN03__MSG_4="国结系统异常GJYWCRIN0304";
+  public final static String GJYW_CRIN03_3="GJYWCRIN0303";
+  public final static String GJYW_CRIN03__MSG_3="国结系统异常GJYWCRIN0303";
+  public final static String GJYW_CRIN04_4="GJYWCRIN0404";
+  public final static String GJYW_CRIN04__MSG_4="国结系统异常GJYWCRIN0404";
+  public final static String GJYW_CRIN04_3="GJYWCRIN0403";
+  public final static String GJYW_CRIN04__MSG_3="国结系统异常GJYWCRIN0403";
+  public final static String GJYW_CRIN05_4="GJYWCRIN0504";
+  public final static String GJYW_CRIN05__MSG_4="国结系统异常GJYWCRIN0504";
+  public final static String GJYW_CRIN05_3="GJYWCRIN0503";
+  public final static String GJYW_CRIN05__MSG_3="国结系统异常GJYWCRIN0503";
+  public final static String GJYW_MERGER01_1="GJYWMERGER0101";
+  public final static String GJYW_MERGER01__MSG_1="国结系统异常GJYWMERGER0101";
+  
+  public final static String GJYW__OCIF_MSG_0="success";
+  public final static String GJYW_OCIF_ERRORCODE="GJYWOCIFINF";
+  public final static String GJYW_OCIF__MSG_1="合并客户(custno)或被合并客户(mergno)为空,不能进行合并发布!";
+  public final static String GJYW_OCIF__MSG_2="被合并客户(mergno)在国结不存在,不能进行合并发布!";
+  public final static String GJYW_OCIF__MSG_3="合并客户(custno)或被合并客户(mergno)在国结不是正常状态,不能进行合并发布!";
+  public final static String GJYW_OCIF__MSG_4="合并客户(custno)在国结不是正常状态,不能进行合并反交易发布!";
+  public final static String GJYW_OCIF__MSG_5="被合并客户(mergno)在国结不是已合并状态,不能进行合并反交易发布!";
+  public final static String GJYW_OCIF__MSG_6="查询客户号(custno)为空，不能进行客户查询!";
+  public final static String GJYW_OCIF__MSG_7="客户信息条数(listnm)为0，不能进行个人客户修改客户信息发布!";
+  public final static String GJYW_OCIF__MSG_8="客户号(custno)为空，不能进行对私客户信息修改!";
+  public final static String GJYW_OCIF__MSG_9="组织机构代码，长度必须为9或10位!";
+  public final static String GJYW_OCIF__MSG_10="组织机构代码长度为10位时,第9位必须为-";
+  public final static String GJYW_OCIF__MSG_11="合并客户(custno)在国结不存在,不能进行合并发布!";
+  public final static String GJYW_OCIF__MSG_12="合并客户(custno)在国结不存在,不能进行合并反交易发布!";
+}

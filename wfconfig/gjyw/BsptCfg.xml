@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Date>
+	<Field>
+		<!-- 执行机构 -->
+		<orgNo>1000000000</orgNo>
+		<!-- 时间控制 -->
+		<!-- 是否晚间批量下载 -->
+		<isStartTimeFlag>N</isStartTimeFlag>
+		<!-- 晚间批量下载时间 格式：HHmmss -->
+		<startTime>161800</startTime>
+		<!-- 是否实时下载 -->
+		<isIntervalFlag>N</isIntervalFlag>
+		<!-- 实时下载时间间隔 单位：秒 -->
+		<intervalTime>60</intervalTime>
+
+		<!-- 协议类型 FTP/SFTP -->
+		<tranPrtc>FTP</tranPrtc>
+		<!-- FTP服务器配置 -->
+		<!-- FTP IP地址 -->
+		<ftpServer>127.0.0.1</ftpServer>
+		<!-- FTP用户名 -->
+		<ftpUser>gjyw</ftpUser>
+		<!-- FTP密码 -->
+		<ftpPassword>gjyw</ftpPassword>
+		<!-- SFTP服务器配置 -->
+		<!-- SFTP IP地址 -->
+		<sftpServer>127.0.0.1</sftpServer>
+		<!-- SFTP端口 -->
+		<sftpPort>22</sftpPort>
+		<!-- SFTP用户名 -->
+		<sftpUser>gjyw</sftpUser>
+		<!-- SFTP密码 -->
+		<sftpPassword>gjyw</sftpPassword>
+
+		<!-- 路径和令牌文件配置 -->
+		<!-- 银行编号 加入山东城商联盟的银行用到 比如:齐商银行在联盟的编号为809 -->
+		<bankCode>816</bankCode>
+		<!-- 远程发送路径 -->
+		<sendPath>/</sendPath>
+		<!--sendPath>/odsdata/sfts/send/chaps</sendPath-->
+		<!-- 远程令牌所在路径 -->
+		<tokenPath>/</tokenPath>
+		<!--tokenPath>/odsdata/sfts/send/chaps</tokenPath-->
+		<!-- 远程令牌文件名 -->
+		<tokenName>indicate.txt</tokenName>
+		<!-- 是否下载ftp文件后，删除FTP上的文件 -->
+		<isDelFtpFile>N</isDelFtpFile>
+		<!--是否5天后删除核心的ftp时间文件夹 -->
+		<isDel5DaysFtpFile>Y</isDel5DaysFtpFile>
+
+		<!-- 本地接收文件路径 -->
+		<receivePath>E:/CBOD/bspt</receivePath>
+		<!-- 本地接收文件备份路径 -->
+		<receivePathBak>E:/CBOD/bspt/bak</receivePathBak>
+		<!-- 本地自动接收路径令牌1 -->
+		<token1>token1</token1>
+		<!-- 本地手工接收路径令牌2 -->
+		<token2>token2</token2>
+		<!-- 本地手工接收结售汇路径令牌3 -->
+		<token3>token3</token3>
+
+		<!-- 是否在从 FTP目录下下载文件后，上传令牌文件到FTP指定目录 ，如果为Y，则将根据下载的方式是自动还是手动，上传对应的令牌文件到ftp目录下 -->
+		<isLoadToken>N</isLoadToken>
+		<!-- 上传到远程FTP对应目录下的已自动下载的令牌文件 -->
+		<autoToken>autoToken</autoToken>
+		<!-- 上传到远程FTP对应目录下的已手动下载的令牌文件 -->
+		<handToken>handToken</handToken>
+		<!-- 获取核心数据文件的最早日期 -->
+		<earlyDate>20121231</earlyDate>
+	</Field>
+</Date>

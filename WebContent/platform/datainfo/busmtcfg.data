@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pausrcustomh.xml>
+	<tablename>busmtcfg</tablename>
+	<tabledesc>用户自定义信息表</tabledesc>
+	<type>B</type>
+	<bizno>txnNo</bizno>
+	<isneedtmp>n</isneedtmp>
+	<isneedinfo>n</isneedinfo>
+	<isneedarv>n</isneedarv>
+	<propfile/>
+	<propfldpre/>
+	<indexinfo>
+		<index>
+			<id>index_1</id>
+			<field>smartId</field>
+			<unique>Y</unique>
+		</index>
+	</indexinfo>
+	<fieldinfo>
+		<fieldinfo>
+			<id>smartId</id>
+			<desc>配置ID</desc>
+			<type>char</type>
+			<fieldType>VARCHAR2</fieldType>
+		</fieldinfo>
+		<fieldinfo>
+			<id>smartKey</id>
+			<desc>自定组件KEY</desc>
+			<type>char</type>
+			<fieldType>VARCHAR2</fieldType>
+			<length>2000</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>smartInfo</id>
+			<desc>配置信息</desc>
+			<type>char</type>
+			<fieldType>VARCHAR2</fieldType>
+			<length>4000</length>
+		</fieldinfo>
+		
+	</fieldinfo>
+</pausrcustomh.xml>

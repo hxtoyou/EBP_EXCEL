@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <tablename>PASYSCFG</tablename>
+  <tabledesc>系统业务参数配置表</tabledesc>
+  <type>P</type>
+  <bizno>fldName</bizno>
+  <isneedtmp>N</isneedtmp>
+  <isneedinfo>N</isneedinfo>
+  <isneedarv>N</isneedarv>
+  <isLoop>0</isLoop>
+  <indexinfo JSONFLG="2">
+    <indexinfo>
+      <field>fldName</field>
+      <id>index_PASYSCFG0</id>
+      <unique>1</unique>
+      <indexId>0</indexId>
+    </indexinfo>
+  </indexinfo>
+  <fieldinfo JSONFLG="2">
+    <fieldinfo>
+      <id>fldName</id>
+      <desc>栏位名称</desc>
+      <cnDesc>栏位名称</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc></enDesc>
+      <inputFlg>0</inputFlg>
+      <length>50</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>fldVal</id>
+      <desc>常量值</desc>
+      <cnDesc>常量值</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc></enDesc>
+      <inputFlg>0</inputFlg>
+      <length>1000</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+    <fieldinfo>
+      <id>fldDesc</id>
+      <desc>字段说明</desc>
+      <cnDesc>字段说明</cnDesc>
+      <fieldType>VARCHAR</fieldType>
+      <enDesc></enDesc>
+      <inputFlg>0</inputFlg>
+      <length>30</length>
+      <dftVal></dftVal>
+      <type>CHAR</type>
+      <fldTyp>VARCHAR</fldTyp>
+    </fieldinfo>
+  </fieldinfo>
+</root>

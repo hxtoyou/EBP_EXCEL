@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BUOPCOM.XML>
+	<tablename>butskcom</tablename>
+	<bizno/>
+	<index/>
+	<isneedtmp>y</isneedtmp>
+	<isneedinfo>n</isneedinfo>
+	<isneedarv>y</isneedarv>
+	<fieldinfo>
+		<fieldinfo>
+			<id>tskComNo</id>
+			<name>审批编号</name>
+			<desc>opcomNo</desc>
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>30</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>taskId</id>
+			<name>任务号</name>
+			<desc>txnNo</desc>
+			<type>char</type>
+			<fieldType>int</fieldType>
+			<length>16</length>
+		</fieldinfo>
+		
+		<fieldinfo>
+			<id>state</id>
+			<name>状态</name>
+			<desc>txnNo</desc>
+			<type>char</type>
+			<fieldType>int</fieldType>
+			<length>16</length>
+		</fieldinfo>
+		
+		<fieldinfo>
+			<id>orgNo</id>
+			<name>机构编号</name>
+			<desc>orgNo</desc>
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>10</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>userId</id>
+			<name>用户</name>
+			<desc>userId</desc>
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>10</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>tskTime</id>
+			<name>批准时间</name>
+			<desc>tskTime</desc>
+			<type>Timestamp</type>
+			<fieldType>date</fieldType>
+			<length>yyyy-MM-dd hh24:mi:ss</length>
+		</fieldinfo>
+		
+		<fieldinfo>
+			<id>tskOpinion</id>
+			<name>批注信息</name>
+			<desc>tskOpinion</desc>
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>2000</length>
+		</fieldinfo>
+	</fieldinfo>	
+</BUOPCOM.XML>

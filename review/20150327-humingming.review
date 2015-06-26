@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="20150327">
+  <ReviewIssue id="I7QZGT3P">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:42:01:429 CST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2015-03-27 :: 10:43:50:554 CST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>humingming</ReviewerId>
+    <AssignedTo>xiehuanqiu</AssignedTo>
+    <File line="20">src/com/ebills/product/action/bussiness/FinacePayInfoAction.java</File>
+    <Type>代码注释</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>代码注释</Summary>
+    <Description>代码注释问题</Description>
+    <Annotation>快速解决</Annotation>
+    <Revision>已解决</Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.closed</Status>
+  </ReviewIssue>
+</Review>

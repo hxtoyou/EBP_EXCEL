@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tradetype.xml>
+	<tablename>patrdtyp</tablename>
+	<bizno />
+	<isneedtmp>n</isneedtmp>
+	<isneedinfo>n</isneedinfo>
+	<isneedarv>n</isneedarv>
+	<fieldinfo>
+		<fieldinfo>
+			<id>tradeNo</id>
+			<name>交易编号</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>6</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>tradeName</id>
+			<name>交易名称</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>20</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>tradeDesc</id>
+			<name>交易描述</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>tradeFlag</id>
+			<name>交易类型</name>
+			<desc />
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>1</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>isValid</id>
+			<name>是否有效</name>
+			<desc />
+			<type>char</type>
+			<fieldType>char</fieldType>
+			<length>1</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>templateNo</id>
+			<name>工作流</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>10</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>datasName</id>
+			<name>数据结构保存</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>300</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>initData</id>
+			<name>数据结构初始化</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>300</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>letreeName</id>
+			<name>左数配置名称</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>30</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>rightIndexId</id>
+			<name>权限索引号</name>
+			<desc />
+			<type>integer</type>
+			<fieldType>integer</fieldType>
+			<length>20</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>transLoad</id>
+			<name>交易负荷</name>
+			<desc />
+			<type>integer</type>
+			<fieldType>integer</fieldType>
+			<length>20</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>childTrade</id>
+			<name>子交易列表</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>500</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>tranCcy</id>
+			<name>交易币种</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>tranAmt</id>
+			<name>交易金额</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>corpNo</id>
+			<name>交易编号</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>blgOrgNo</id>
+			<name>业务所属机构</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>isMainTrade</id>
+			<name>是否为主交易</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>1</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>blgTrade</id>
+			<name>所属交易</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>curBizNo</id>
+			<name>业务编号</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>custMangr</id>
+			<name>客户经理赋值ID</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>childrenDatas</id>
+			<name>循环域子表</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>300</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>childrenInitDatas</id>
+			<name>循环域初始化子表</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>300</length>
+		</fieldinfo>
+		<fieldinfo>
+			<id>reportId</id>
+			<name>报表编号</name>
+			<desc />
+			<type>char</type>
+			<fieldType>varchar</fieldType>
+			<length>50</length>
+		</fieldinfo>
+	</fieldinfo>
+</tradetype.xml>
